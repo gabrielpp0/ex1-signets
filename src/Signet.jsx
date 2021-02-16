@@ -3,9 +3,9 @@ import BtnModifierSignet from './BtnModifierSignet';
 
 export default function Signet(props) {
     return (
-        <li className="Produit">
+        <li className="Signet">
             <div className="image">
-                <img src={'images-produits/' + props.id + '.webp'} alt={props.nom}/>
+                <img src={'images-titre/' + props.id + '.jpg'} alt={props.titre}/>
             </div>
             <div className='info'>
                 <h3 className='titre'>{props.titre}</h3>
